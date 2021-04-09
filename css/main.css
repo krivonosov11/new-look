@@ -602,7 +602,9 @@ footer .copywrite {
     }
 
     .form ul{
-        text-align: center;
+        width: 250px;
+        display: block;
+        margin: 10px auto;
     }
 
     .form h1 {
