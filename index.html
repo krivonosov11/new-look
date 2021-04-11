@@ -18,7 +18,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.png">
     <link rel="apple-touch-startup-image" href="/images/favicon.png">
     <link rel="canonical" href="https://promotion-vebinar.fun/">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/main.css?v=1">
 </head>
 <body>
 <div class="wrapper first-block">
@@ -31,9 +31,7 @@
                 <div class="name">
                     Старт
                 </div>
-                <div class="date">
-                    11.04.2021
-                </div>
+                <div class="date" id="date"></div>
                 <div class="sub_date">
                     в 19:00
                 </div>
@@ -303,6 +301,15 @@
 </div>
 </body>
 <footer>
+    <script type="text/javascript">
+        var my_date = new Date();
+        var month = my_date.getMonth() + 1;
+        if (month <= 9) {
+            month = '0' + month;
+        }
+        var tomorrow_date = (my_date.getDate() + 1) + "." + month + "." + my_date.getFullYear();
+        document.getElementById('date').innerText = tomorrow_date;
+    </script>
     <ul>
         <li><a href="/dogovor.html">Договор оферты</a></li>
         <li><a href="/politika.html">Политика конфиденциальности</a></li>
