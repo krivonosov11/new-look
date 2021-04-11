@@ -354,6 +354,7 @@ body {
 
 .form .first img {
     width: 200px;
+    max-height: 250px;
 }
 
 .form .first ul {
@@ -593,7 +594,6 @@ footer .copywrite {
 
     .form .first img {
         max-width: 300px;
-        max-height: 250px;
         display: block;
         margin: auto;
     }
