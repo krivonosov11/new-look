@@ -19,7 +19,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon.png">
     <link rel="apple-touch-startup-image" href="/images/favicon.png">
     <link rel="canonical" href="https://smm.newlook-school.com/">
-    <link rel="stylesheet" href="/css/main.css?v=2.4">
+    <link rel="stylesheet" href="/css/main.css?v=2.5">
 </head>
 
 <body>
@@ -58,10 +58,10 @@
                     5 законов хайпа
                 </h1>
             </div>
-            <a href="#form" class="button">
+            <div class="button">
                 <span>Принять участие</span>
                 <img src="/images/finger.png" alt="Finger">
-            </a>
+            </div>
             <br>
             <div class="sub-name">
                 <h4>
@@ -233,9 +233,9 @@
                     <span>не получается красиво<br>оформить страницу</span>
                 </div>
             </div>
-            <a href="#form" class="button">
+            <div class="button">
                 <span>Избавиться от этих проблем</span>
-            </a>
+            </div>
         </div>
     </div>
 
@@ -300,15 +300,8 @@
     <div class="copywrite">© NEWLOOK 2021 все права защищены</div>
 
     <!-- scripts -->
-    <script type="text/javascript">
-        var my_date = new Date();
-        var month = my_date.getMonth() + 1;
-        if (month <= 9) {
-            month = '0' + month;
-        }
-        var tomorrow_date = (my_date.getDate() + 1) + "." + month + "." + my_date.getFullYear();
-        document.getElementById('date').innerText = tomorrow_date;
-    </script>
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
     <!-- leeloo init code -->
     <script>
         window.LEELOO = function () {
