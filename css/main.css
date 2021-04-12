@@ -346,14 +346,10 @@ body {
     padding: 15px;
 }
 
-.form .first, .form .second {
+.form .first{
     max-width: 700px;
     display: flex;
     justify-content: space-between;
-}
-
-.form .second {
-    justify-content: flex-end;
 }
 
 .form .first img {
@@ -361,11 +357,11 @@ body {
     max-height: 250px;
 }
 
-.form .first ul {
+.form .first ul.want{
     color: #7784d1;
 }
 
-.form .second ul {
+.form .info ul {
     color: #324887;
 }
 
@@ -379,7 +375,7 @@ body {
     border-style: solid;
 }
 
-.form .second h3 {
+.form .info h3 {
     color: #c76aad;
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
