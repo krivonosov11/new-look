@@ -18,6 +18,10 @@
     src: url('/fonts/Cormorant-Light.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .first-block {
     background-color: #aae4fc;
     text-align: center;
