@@ -392,98 +392,8 @@ body {
     font-weight: 700;
 }
 
-.form .real-form {
-    width: 420px;
-    display: block;
-    margin: auto;
-    box-shadow: -1px 1px 36px -4px rgb(97 97 97 / 56%);
-    padding: 25px 25px;
-    font-family: 'Open Sans', Arial, sans-serif;
-}
-
-.form .real-form .item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    align-items: center;
-}
-
-.form .real-form .item input {
-    width: 100%;
-    -webkit-appearance: none;
-    box-shadow: none;
-    padding: 10px 15px;
-    box-sizing: border-box;
-    vertical-align: middle;
-    line-height: 18px;
-    font-size: 16px;
-    border-radius: 4px;
-    outline: none;
-    border: 1px solid #f1f1f1;
-    background-color: #f1f1f1;
-    transition: .2s ease-in-out;
-    color: #5a5a5a;
-}
-
-.form .real-form .item label {
-    width: 200px;
-    font-size: 16px;
-    color: gray;
-}
-
-.form .real-form .social-buttons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.form .real-form .social-buttons button {
-    width: 140px;
-    border: none;
-    color: white;
-    padding: 5px;
-    cursor: pointer;
-}
-
-.form .real-form .social-buttons button:first-child {
-    border-radius: 5px 0 0 5px;
-}
-
-.form .real-form .social-buttons button:last-child {
-    border-radius: 0 5px 5px 0;
-}
-
-.form .real-form .social-buttons button.facebook {
-    background: #41a5fc;
-    background: -moz-linear-gradient(top, #41a5fc 0, #0586ff 100%);
-    background: -webkit-linear-gradient(top, #41a5fc, #0586ff);
-    background: -o-linear-gradient(top, #41a5fc 0, #0586ff 100%);
-    background: -ms-linear-gradient(top, #41a5fc 0, #0586ff 100%);
-    background: linear-gradient(
-            180deg, #41a5fc 0, #0586ff);
-}
-
-.form .real-form .social-buttons button.telegram {
-    background: #20b1f5;
-    background: -moz-linear-gradient(top, #20b1f5 0, #169fe3 100%);
-    background: -webkit-linear-gradient(top, #20b1f5, #169fe3);
-    background: -o-linear-gradient(top, #20b1f5 0, #169fe3 100%);
-    background: -ms-linear-gradient(top, #20b1f5 0, #169fe3 100%);
-    background: linear-gradient(
-            180deg, #20b1f5 0, #169fe3);
-}
-
-.form .real-form .social-buttons button.viber {
-    background: #742ea6;
-    background: -moz-linear-gradient(top, #742ea6 0, #59267c 100%);
-    background: -webkit-linear-gradient(top, #742ea6, #59267c);
-    background: -o-linear-gradient(top, #742ea6 0, #59267c 100%);
-    background: -ms-linear-gradient(top, #742ea6 0, #59267c 100%);
-    background: linear-gradient(
-            180deg, #742ea6 0, #59267c);
-}
-
-.form .real-form .social-buttons button img {
-    width: 36px;
+.leeloo-hash-toieye {
+    text-align: center;
 }
 
 footer {
@@ -602,7 +512,7 @@ footer .copywrite {
         width: auto;
     }
 
-    .form ul{
+    .form ul {
         width: 250px;
         display: block;
         margin: 10px auto;
